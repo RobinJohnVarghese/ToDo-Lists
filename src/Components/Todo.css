@@ -1,0 +1,69 @@
+.container{
+    width: 40%;
+    margin-top: 50px;
+    background-color: rgb(123, 115, 115);
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(13, 13, 122);
+}
+.form-group{
+    display: flex;
+    margin: 20px;
+    margin: 20px;
+    width: auto;
+
+}
+button{
+    height: fit-content;
+    margin-left: 10px;
+    background-color:transparent ;
+    color: rgb(255, 251, 251);
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-control{
+height: 50px;
+}
+.list{
+    padding-right: 10px;
+    
+    margin-top: 30px !important;
+}
+li{
+    padding: 10px;
+    background-color: rgb(42, 88, 55);
+    padding-left:10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    color: azure;
+    border: none;
+
+}
+.icons{
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+#complete{
+    color: goldenrod;
+}
+#edit{
+    color: blue;
+}
+#delete{
+    color: black;
+}
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
